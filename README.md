@@ -62,3 +62,6 @@ Predicts real-world impact (data leak, account takeover, etc.)
 Generates secure, production-ready code fixes
 💬 Conversational Security Assistant
 Users can interact with AI in terminal:
+
+
+HOSTED LINK: https://krpterisio-942182867605.us-central1.run.app/
