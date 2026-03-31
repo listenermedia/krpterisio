@@ -22,12 +22,17 @@ import { JSAnalyzer } from "./lib/scanner/js_analyzer";
 import { Reporter } from "./lib/scanner/reporter";
 import { AnalysisService } from "./lib/ai/analysis-service";
 
-const port = 3000;
+const port = parseInt(process.env.PORT || "3000", 10);
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
+
+// In production, serve the Vite-built SPA
+if (process.env.NODE_ENV === "production") {
+    app.use(express.static(path.join(process.cwd(), "dist")));
+}
 
 // Mock API from original app/api/scan/route.ts
 app.post("/api/scan", (req, res) => {
@@ -428,9 +433,16 @@ const io = new Server(httpServer, {
         });
     });
 
-    httpServer.listen(port, () => {
-        console.log(`> Backend server running on port: ${port}`);
+// SPA Fallback — must be after all API/socket routes
+if (process.env.NODE_ENV === "production") {
+    app.use((_req, res) => {
+        res.sendFile(path.join(process.cwd(), "dist", "index.html"));
     });
+}
+
+httpServer.listen(port, "0.0.0.0", () => {
+    console.log(`> Server running on port: ${port}`);
+});
 
 // Global reference to the active page for interaction
 // Note: In a real multi-user app, this would need to be a map of socketId -> page.

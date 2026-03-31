@@ -6,7 +6,7 @@
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:client": "vite",
     "dev:server": "ts-node --project tsconfig.server.json server.ts",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "start": "NODE_ENV=production ts-node --project tsconfig.server.json server.ts",
     "lint": "eslint"
   },

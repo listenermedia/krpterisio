@@ -33,19 +33,31 @@ export class Crawler {
     private isTakingScreenshot = false;
 
     async init() {
-        this.browser = await (puppeteer as any).launch({
-            headless: false, // GOD MODE: Visible browser is harder to detect
-            channel: "chrome",
-            protocolTimeout: 3600000, 
+        const isProduction = process.env.NODE_ENV === "production";
+        const executablePath = process.env.PUPPETEER_EXECUTABLE_PATH || undefined;
+
+        const launchOptions: any = {
+            headless: isProduction ? true : false,
+            protocolTimeout: 3600000,
             args: [
                 "--window-size=1280,800",
                 "--disable-features=IsolateOrigins,site-per-process",
-                `--user-data-dir=${os.tmpdir()}/hacker-browser-profile-stable`,
                 "--no-sandbox",
                 "--disable-setuid-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-gpu",
             ],
             defaultViewport: { width: 1280, height: 800 }
-        });
+        };
+
+        if (executablePath) {
+            launchOptions.executablePath = executablePath;
+        } else {
+            launchOptions.channel = "chrome";
+            launchOptions.args.push(`--user-data-dir=${os.tmpdir()}/hacker-browser-profile-stable`);
+        }
+
+        this.browser = await (puppeteer as any).launch(launchOptions);
     }
 
     async close() {

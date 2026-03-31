@@ -1,0 +1,11 @@
+node_modules
+.git
+.env
+dist
+.next
+.vercel
+*.md
+*.docx
+.DS_Store
+original_docs
+data/sessions/*.json

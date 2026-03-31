@@ -4,9 +4,12 @@ let socket: any;
 
 export const getSocket = () => {
     if (!socket) {
-        // In development, Vite proxies /socket.io to the backend.
+        // In development, Vite proxies /socket.io to the backend (localhost:3000).
         // In production, the backend serves the frontend so same origin works.
-        socket = io("http://localhost:3000");
+        const url = import.meta.env.DEV
+            ? "http://localhost:3000"
+            : window.location.origin;
+        socket = io(url);
     }
     return socket;
 };
