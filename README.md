@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+Krpterisio – Website Vulnerability & Security Intelligence Platform
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚨 Problem Statement
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Modern web applications are increasingly complex, using SPAs, microservices, and multiple APIs. This has significantly expanded the attack surface, making them vulnerable to threats such as:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Cross-Site Scripting (XSS)
+Server-Side Request Forgery (SSRF)
+API misconfigurations
+Broken authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Existing tools like OWASP ZAP and Burp Suite often:
 
-## Learn More
+Generate high false positives
+Lack real-world context
+Provide generic fixes instead of actionable solutions
+Require deep security expertise
 
-To learn more about Next.js, take a look at the following resources:
+👉 There is a need for an intelligent, developer-friendly security platform that not only detects vulnerabilities but also explains and fixes them.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+💡 Project Description
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Krpterisio is an AI-powered cybersecurity platform that combines:
 
-## Deploy on Vercel
+🔍 Stealth Web Crawling (via Puppeteer)
+🌐 Real-time Network Interception (CDP + Socket.io)
+🤖 AI-driven Vulnerability Analysis
+💻 In-browser Terminal Interface (xterm.js)
+⚙️ How it works:
+User inputs a target URL
+The stealth crawler scans the website like a real user
+Network traffic, APIs, and source code are intercepted
+Data is streamed live to the dashboard
+AI analyzes vulnerabilities and generates:
+Risk explanations
+Business impact
+Secure code fixes
+🚀 What makes it useful:
+Real-time scanning (not static reports)
+AI explains vulnerabilities in plain English
+Provides ready-to-use code fixes
+No local setup required
+Works directly in browser
+🤖 Google AI Usage
+🔧 Tools / Models Used
+Google Gemini 2.0 Flash (via @google/genai SDK)
+🧠 How Google AI Was Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Google AI is the core intelligence layer of Krpterisio.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+It is used for:
+
+🔍 Analyzing Network Requests
+Detects insecure headers, tokens, exposed APIs
+📜 Source Code Analysis
+Scans JavaScript bundles for secrets, vulnerabilities
+⚠️ Risk Evaluation
+Predicts real-world impact (data leak, account takeover, etc.)
+🛠 Code Remediation
+Generates secure, production-ready code fixes
+💬 Conversational Security Assistant
+Users can interact with AI in terminal:
