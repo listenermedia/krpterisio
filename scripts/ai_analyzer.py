@@ -5,8 +5,8 @@ import os
 from google import genai
 from google.genai import types
 
-# Use the key provided by the environment
-API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyD0UBQp2YdNuLxYnMkYPl9S2YGdgRLDLJM")
+# Use the key provided by the environment (set in .env or Cloud Run env vars)
+API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 def generate_analysis(findings_json):
   client = genai.Client(
