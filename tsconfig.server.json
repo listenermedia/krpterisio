@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["esnext", "dom"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "outDir": "dist",
+        "noEmit": false,
+        "resolveJsonModule": true,
+        "isolatedModules": true
+    },
+    "include": [
+        "server.ts",
+        "lib/**/*.ts",
+        "types/**/*.ts"
+    ]
+}

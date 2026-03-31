@@ -1,0 +1,649 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Scan Report - https://ashacademylms.com/courses</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 40px; }
+        h1, h2, h3 { color: #f8fafc; }
+        .container { max-width: 900px; margin: 0 auto; }
+        .header { text-align: center; border-bottom: 2px solid #334155; padding-bottom: 20px; margin-bottom: 40px; }
+        .stats { display: flex; justify-content: space-around; background: #1e293b; padding: 20px; border-radius: 12px; margin-bottom: 40px; }
+        .stat-box { text-align: center; }
+        .stat-value { font-size: 2rem; font-weight: bold; }
+        .high { color: #ef4444; }
+        .medium { color: #f59e0b; }
+        .low { color: #3b82f6; }
+        .finding-card { background: #1e293b; border-left: 5px solid #64748b; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+        .finding-card.critical { border-left-color: #ef4444; }
+        .finding-card.high { border-left-color: #ef4444; }
+        .finding-card.medium { border-left-color: #f59e0b; }
+        .finding-card.low { border-left-color: #3b82f6; }
+        .details { background: #0f172a; padding: 10px; border-radius: 4px; font-family: monospace; font-size: 0.9rem; margin-top: 10px; }
+        .footer { text-align: center; color: #64748b; margin-top: 60px; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Web Vulnerability Scan Report</h1>
+            <p>Target: <strong>https://ashacademylms.com/courses</strong></p>
+            <p>Date: 13/3/2026, 8:57:02 pm</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-value high">1</div>
+                <div>Critical / High</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value medium">10</div>
+                <div>Medium</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value low">87</div>
+                <div>Low / Info</div>
+            </div>
+        </div>
+
+        <h2>Detailed Findings</h2>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/app-DUfQANk6.css</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/app-DUfQANk6.css</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/app-JwSd_jpx.css</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/app-JwSd_jpx.css</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/app-BLuyr1iX.js</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/app-BLuyr1iX.js</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/app-JwSd_jpx.css</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/app-JwSd_jpx.css</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/List-ttNal3k0.js</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/List-ttNal3k0.js</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/index-h3KtfVb9.js</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/index-h3KtfVb9.js</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/CourseCard-C_Jllbbq.css</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/CourseCard-C_Jllbbq.css</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/List-DNAuwBJy.css</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/List-DNAuwBJy.css</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/CourseCard-CF9LQNeb.js</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/CourseCard-CF9LQNeb.js</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/lang/en</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/lang/en</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/images/website/app-store.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/images/website/app-store.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/images/website/play-store.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/images/website/play-store.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/website/footer-bg-2.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/website/footer-bg-2.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/menubar-BoSfr9kK.svg</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/menubar-BoSfr9kK.svg</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/images/website/category.svg</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/images/website/category.svg</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/images/menu/lang.svg</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/images/menu/lang.svg</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/images/website/search.svg</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/assets/images/website/search.svg</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://fonts.gstatic.com/s/lexend/v26/wlpwgwvFAVdoq2_v-6QU.woff2</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/support-BA3T77sx.svg</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/support-BA3T77sx.svg</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/categories?items_per_page=20&page_number=1</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/categories?items_per_page=20&page_number=1</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/categories</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/categories</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/setting/favicon/7xFDCkYGgIDDlMkDbPnTC8ZlJP8EccufOjLJh1zg.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/setting/favicon/7xFDCkYGgIDDlMkDbPnTC8ZlJP8EccufOjLJh1zg.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/instructor/list</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/instructor/list</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/course/list?items_per_page=15&page_number=1&sort=view_count&sortDirection=desc</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/course/list?items_per_page=15&page_number=1&sort=view_count&sortDirection=desc</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/category/image/0gxEbQvRau6hDtNv2PzXdijcx2VPqGe5btShE9sQ.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/category/image/0gxEbQvRau6hDtNv2PzXdijcx2VPqGe5btShE9sQ.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/category/image/fgn6mjfTKuFGSa3xuByyqszJfmRlnboAQAQh4pgZ.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/category/image/fgn6mjfTKuFGSa3xuByyqszJfmRlnboAQAQh4pgZ.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/category/image/zJMW8rZDp6gOaJwxxlAragtmVo3IbcFMbNjP8u0s.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/category/image/zJMW8rZDp6gOaJwxxlAragtmVo3IbcFMbNjP8u0s.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/categories</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/categories</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://quickchart.io/qr?text=undefined/download_app&margin=2&size=110</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://quickchart.io/qr?text=undefined/download_app&margin=2&size=110</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/vXIo4K2evcu4E98NnuIIqekcyYdRdDrhqsspfbvj.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/vXIo4K2evcu4E98NnuIIqekcyYdRdDrhqsspfbvj.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/L79QTrANYV1C544oZ6ovfayelOfr5d33mvVEhBwT.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/L79QTrANYV1C544oZ6ovfayelOfr5d33mvVEhBwT.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/ZJkOwWdnqk79kdF3uOY1kgdq7sv73JS1qFPLwOX0.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/ZJkOwWdnqk79kdF3uOY1kgdq7sv73JS1qFPLwOX0.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/E2jtHlLtcP2XQCb8aEh8AUCkqD9DHarTTqEKZBp0.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/E2jtHlLtcP2XQCb8aEh8AUCkqD9DHarTTqEKZBp0.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/GAszQoipYXEUYeZq9B8PXwigCBQyBKOaPqDuQSNS.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/GAszQoipYXEUYeZq9B8PXwigCBQyBKOaPqDuQSNS.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/fYmsQ3cB9dxReaOLN9HjDr8cujjhiQNZMmjZDAbw.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/fYmsQ3cB9dxReaOLN9HjDr8cujjhiQNZMmjZDAbw.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/4QK3inBVt3mlfSbsJzCL6GTJCfghAedsbyCQSaIq.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/storage/course/thumbnail/4QK3inBVt3mlfSbsJzCL6GTJCfghAedsbyCQSaIq.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/instructor/list</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/instructor/list</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/remixicon-BVvFtaex.woff2?t=1734404658139</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/remixicon-BVvFtaex.woff2?t=1734404658139</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/bootstrap-icons-mSm7cUeB.woff2?e34853135f9e39acf64315236852cd5a</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/build/assets/bootstrap-icons-mSm7cUeB.woff2?e34853135f9e39acf64315236852cd5a</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/instructor/list</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/instructor/list</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/instructor/list</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/api/instructor/list</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card critical">
+                <h3>[CRITICAL] Sensitive File / Directory Exposed</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/.env</p>
+                <div class="details">Found accessible file/directory: /.env (Status: 200)</div>
+            </div>
+        
+            <div class="finding-card info">
+                <h3>[INFO] Protected Directory Discovered</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/.git/HEAD</p>
+                <div class="details">Directory exists but is forbidden: /.git/HEAD (Status: 403)</div>
+            </div>
+        
+            <div class="finding-card medium">
+                <h3>[MEDIUM] Sensitive File / Directory Exposed</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/server-status</p>
+                <div class="details">Found accessible file/directory: /server-status (Status: 200)</div>
+            </div>
+        
+            <div class="finding-card medium">
+                <h3>[MEDIUM] Sensitive File / Directory Exposed</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/phpinfo.php</p>
+                <div class="details">Found accessible file/directory: /phpinfo.php (Status: 200)</div>
+            </div>
+        
+            <div class="finding-card medium">
+                <h3>[MEDIUM] Sensitive File / Directory Exposed</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/admin</p>
+                <div class="details">Found accessible file/directory: /admin (Status: 200)</div>
+            </div>
+        
+            <div class="finding-card medium">
+                <h3>[MEDIUM] Sensitive File / Directory Exposed</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/backup</p>
+                <div class="details">Found accessible file/directory: /backup (Status: 200)</div>
+            </div>
+        
+            <div class="finding-card medium">
+                <h3>[MEDIUM] Sensitive File / Directory Exposed</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/swagger.json</p>
+                <div class="details">Found accessible file/directory: /swagger.json (Status: 200)</div>
+            </div>
+        
+            <div class="finding-card medium">
+                <h3>[MEDIUM] Sensitive File / Directory Exposed</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/api-docs</p>
+                <div class="details">Found accessible file/directory: /api-docs (Status: 200)</div>
+            </div>
+        
+            <div class="finding-card medium">
+                <h3>[MEDIUM] Sensitive File / Directory Exposed</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/wp-admin</p>
+                <div class="details">Found accessible file/directory: /wp-admin (Status: 200)</div>
+            </div>
+        
+            <div class="finding-card medium">
+                <h3>[MEDIUM] Sensitive File / Directory Exposed</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/config.php</p>
+                <div class="details">Found accessible file/directory: /config.php (Status: 200)</div>
+            </div>
+        
+            <div class="finding-card medium">
+                <h3>[MEDIUM] Sensitive File / Directory Exposed</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/.ds_store</p>
+                <div class="details">Found accessible file/directory: /.ds_store (Status: 200)</div>
+            </div>
+        
+            <div class="finding-card info">
+                <h3>[INFO] Protected Directory Discovered</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/.git/config</p>
+                <div class="details">Directory exists but is forbidden: /.git/config (Status: 403)</div>
+            </div>
+        
+            <div class="finding-card medium">
+                <h3>[MEDIUM] Sensitive File / Directory Exposed</h3>
+                <p><strong>Location:</strong> https://ashacademylms.com/courses/backup.sql</p>
+                <div class="details">Found accessible file/directory: /backup.sql (Status: 200)</div>
+            </div>
+        
+
+        <div class="footer">
+            Generated by Phoenix: Deep Techno Forensic Engine v1.0<br>
+            PHOENIX | Project by Team Phoenix
+        </div>
+    </div>
+</body>
+</html>
+        

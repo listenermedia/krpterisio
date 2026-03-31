@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Scan Report - http://www.itsecgames.com/</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 40px; }
+        h1, h2, h3 { color: #f8fafc; }
+        .container { max-width: 900px; margin: 0 auto; }
+        .header { text-align: center; border-bottom: 2px solid #334155; padding-bottom: 20px; margin-bottom: 40px; }
+        .stats { display: flex; justify-content: space-around; background: #1e293b; padding: 20px; border-radius: 12px; margin-bottom: 40px; }
+        .stat-box { text-align: center; }
+        .stat-value { font-size: 2rem; font-weight: bold; }
+        .high { color: #ef4444; }
+        .medium { color: #f59e0b; }
+        .low { color: #3b82f6; }
+        .finding-card { background: #1e293b; border-left: 5px solid #64748b; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+        .finding-card.critical { border-left-color: #ef4444; }
+        .finding-card.high { border-left-color: #ef4444; }
+        .finding-card.medium { border-left-color: #f59e0b; }
+        .finding-card.low { border-left-color: #3b82f6; }
+        .details { background: #0f172a; padding: 10px; border-radius: 4px; font-family: monospace; font-size: 0.9rem; margin-top: 10px; }
+        .footer { text-align: center; color: #64748b; margin-top: 60px; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Web Vulnerability Scan Report</h1>
+            <p>Target: <strong>http://www.itsecgames.com/</strong></p>
+            <p>Date: 31/3/2026, 4:07:59 pm</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-value high">0</div>
+                <div>Critical / High</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value medium">0</div>
+                <div>Medium</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value low">38</div>
+                <div>Low / Info</div>
+            </div>
+        </div>
+
+        <h2>Detailed Findings</h2>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> https://www.itsecgames.com/</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://www.itsecgames.com/</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/stylesheets/stylesheet.css</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/stylesheets/stylesheet.css</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/mme.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/mme.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/owasp.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/owasp.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/js/html5.js</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/js/html5.js</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/facebook.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/facebook.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/linkedin.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/linkedin.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> https://fonts.gstatic.com/s/architectsdaughter/v20/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4w.woff2</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/twitter.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/twitter.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/bg_3.jpg</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/bg_3.jpg</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/sb_1.jpg</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/sb_1.jpg</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/bee_1.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/bee_1.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/cc.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/cc.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/bg_1.jpg</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/bg_1.jpg</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/bg_2.jpg</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/bg_2.jpg</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/blogger.png</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/blogger.png</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Content-Type-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/favicon.ico</p>
+                <div class="details">The X-Content-Type-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card low">
+                <h3>[LOW] Missing X-Frame-Options</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/images/favicon.ico</p>
+                <div class="details">The X-Frame-Options header is missing.</div>
+            </div>
+        
+            <div class="finding-card info">
+                <h3>[INFO] Protected Directory Discovered</h3>
+                <p><strong>Location:</strong> http://www.itsecgames.com/server-status</p>
+                <div class="details">Directory exists but is forbidden: /server-status (Status: 403)</div>
+            </div>
+        
+
+        <div class="footer">
+            Generated by Krpterisio: Deep Techno Forensic Engine v1.0<br>
+            KRPTERISIO | Project by Team Krpterisio
+        </div>
+    </div>
+</body>
+</html>
+        

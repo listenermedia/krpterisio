@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --background: #050505;
+  --foreground: #00ff41;
+  --accent: #008f11;
+  --error: #ff003c;
+  --panel-bg: #0a0a0a;
+  --border: #003b00;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-mono: "Fira Code", "Courier New", monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-mono);
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* Hacker Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #003b00;
+  border: 1px solid #00ff41;
+}
+
+::-webkit-scrollbar-corner {
+  background: #000;
+}
+
+/* Global inputs */
+input,
+textarea,
+button {
+  font-family: var(--font-mono);
+  border-radius: 0 !important;
+}
+
+/* CRT Scanline Effect (Optional, subtle) */
+body::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 9999;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  opacity: 0.15;
+}

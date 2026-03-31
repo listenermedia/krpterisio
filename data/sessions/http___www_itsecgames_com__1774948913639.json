@@ -1,0 +1,666 @@
+{
+  "id": "http___www_itsecgames_com__1774948913639",
+  "url": "http://www.itsecgames.com/",
+  "timestamp": 1774948913639,
+  "status": "scanning",
+  "findings": [],
+  "stats": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "info": 0
+  },
+  "networkLogs": [
+    {
+      "method": "INFO",
+      "url": "Navigating to: http://www.itsecgames.com/",
+      "status": 0
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/",
+      "status": 307,
+      "type": "",
+      "size": 0,
+      "time": 0,
+      "requestHeaders": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+      },
+      "responseHeaders": {
+        "location": "https://www.itsecgames.com/",
+        "non-authoritative-reason": "HttpsUpgrades"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://www.itsecgames.com/",
+      "status": 307,
+      "type": "",
+      "size": 0,
+      "time": 0,
+      "requestHeaders": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+      },
+      "responseHeaders": {
+        "location": "http://www.itsecgames.com/",
+        "non-authoritative-reason": "HttpsUpgrades"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/",
+      "status": 200,
+      "type": "text/html",
+      "size": 1482,
+      "time": 0,
+      "requestHeaders": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-encoding": "gzip",
+        "content-length": "1482",
+        "content-type": "text/html",
+        "date": "Tue, 31 Mar 2026 09:21:42 GMT",
+        "etag": "\"e43-5d7959bd3c800-gzip\"",
+        "keep-alive": "timeout=15, max=100",
+        "last-modified": "Wed, 09 Feb 2022 13:14:08 GMT",
+        "server": "Apache",
+        "vary": "Accept-Encoding"
+      },
+      "postData": "",
+      "responseBody": "<!DOCTYPE html>\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"https://fonts.googleapis.com/css?family=Architects+Daughter\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheets/stylesheet.css\" media=\"screen\" />\n<link rel=\"shortcut icon\" href=\"images/favicon.ico\" type=\"image/x-icon\" />\n\n<!--<script src=\"//html5shiv.googlecode.com/svn/trunk/html5.js\"></script>-->\n<script src=\"js/html5.js\"></script>\n\n<title>bWAPP, a buggy web application!</title>\n\n</head>\n\n<body>\n\n<header>\n\n<h1>bWAPP</h1>\n\n<h2>an extremely buggy web app !</h2>\n\n</header>\n\n<div id=\"menu\">\n\n    <table>\n\n        <tr>   \n\n            <td><font color=\"#ffb717\">Home</font></td>\n            <td><a href=\"bugs.htm\">Bugs</a></td>\n            <td><a href=\"download.htm\">Download</a></td>\n            <td><a href=\"training.htm\">Talks & Training</a></td>\n            <td><a href=\"http://itsecgames.blogspot.com\" target=\"_blank\">Blog</a></td>\n\n        </tr>\n\n    </table>\n\n</div>\n\n<div id=\"main\">\n\n    <h1>Home</h1>\n\n    <p>bWAPP, or a <i>buggy web application</i>, is a free and open source deliberately insecure web application.<br />\n    It helps security enthusiasts, developers and students to discover and to prevent web vulnerabilities.<br />\n    bWAPP prepares one to conduct successful penetration testing and ethical hacking projects.</p>\n\t\n    <p>What makes bWAPP so unique? Well, it has over <a href=\"./downloads/vulnerabilities.txt\" target=\"blank\">100 web vulnerabilities</a>!<br />\n    It covers all major known web bugs, including all risks from the OWASP Top 10 project.</p>\n\n    <p>bWAPP is a PHP application that uses a MySQL database. It can be hosted on Linux/Windows with Apache/IIS and MySQL.\n    It can also be installed with WAMP or XAMPP.<br />\n    Another possibility is to download the <i>bee-box</i>, a custom Linux VM pre-installed with bWAPP.</p>\n\t\n    <p>Download our <a href=\"./downloads/bWAPP_intro.pdf\" target=\"_blank\">What is bWAPP?</a> introduction tutorial, including free exercises...</p>\n\t\n\t<p>bWAPP is for web application security-testing and educational purposes only.<br />\n\tHave fun with this free and open source project!</p>\n \n    <p>Cheers, Malik Mesellem</p>\n\n</div>\n\n<div id=\"sponsor\">\n\n    <table>\n\n        <tr>\n\t\t\t<td align=\"center\"><a href=\"https://www.mmesec.com\" target=\"_blank\"><img src=\"./images/mme.png\"></a>&nbsp;</td>\n\t\t\t<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>\n            <td align=\"center\"><a href=\"https://www.owasp.org\" target=\"_blank\"><img src=\"./images/owasp.png\"></a></td>\n\n        </tr>\n\n    </table>\n\n</div>\n\n<div id=\"side\">\n\n    <a href=\"https://twitter.com/MME_IT\" target=\"blank_\" class=\"button\"><img src=\"./images/twitter.png\"></a>\n    <a href=\"https://be.linkedin.com/in/malikmesellem\" target=\"blank_\" class=\"button\"><img src=\"./images/linkedin.png\"></a>\n    <a href=\"https://www.facebook.com/mmebv/\" target=\"blank_\" class=\"button\"><img src=\"./images/facebook.png\"></a>\n    <a href=\"https://itsecgames.blogspot.com\" target=\"blank_\" class=\"button\"><img src=\"./images/blogger.png\"></a>\n\n</div>\n\n<div id=\"disclaimer\">\n\n    <p>bWAPP is licensed under <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\" target=\"_blank\"><img style=\"vertical-align:middle\" src=\"./images/cc.png\"></a> &copy; 2022 MME BV / Follow <a href=\"https://twitter.com/MME_IT\" target=\"_blank\">@MME_IT</a> on Twitter and ask for our cheat sheet, containing all solutions! / Need an exclusive <a href=\"https://www.mmesec.com/training\" target=\"blank_\">training</a>?</p>\n\n</div>\n\n<div id=\"bee\">\n\n    <img src=\"./images/bee_1.png\">\n\n</div>\n\n</body>\n\n</html>"
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/stylesheets/stylesheet.css",
+      "status": 200,
+      "type": "text/css",
+      "size": 1709,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/",
+        "accept": "text/css,*/*;q=0.1",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-encoding": "gzip",
+        "content-length": "1709",
+        "content-type": "text/css",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"187b-5d795c0e6bf80-gzip\"",
+        "keep-alive": "timeout=15, max=99",
+        "last-modified": "Wed, 09 Feb 2022 13:24:30 GMT",
+        "server": "Apache",
+        "vary": "Accept-Encoding"
+      },
+      "postData": "",
+      "responseBody": "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, sub, sup, tt, var, u, center,\ndl, dt, dd, ol,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n        margin: 0;\n        padding: 0px;\n        border: 0;\n        font-size: 100%;\n        font: inherit;\n        vertical-align: baseline;\n}\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n        display: block;\n}\n\nbody {\n        line-height: 1;\n        text-align: justify; \n}\n\nblockquote, q {\n        quotes: none;\n}\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n        content: \"\";\n        content: none;\n}\n\ntable {\n        border-collapse: collapse;\n        border-spacing: 0;\n}\n\n/* Layout styles */\nbody {\n        font-size: 15px;\n        line-height: 1.5;\n        background: #fafafa url(\"../images/bg_3.jpg\") 0 0 repeat;\n        font-family: \"Helvetica Neue\", Helvetica, Arial, serif;\n        font-weight: 400;\n        color: #666;\n}\n\na {\n        color: #ff4500; \n}\n\na:hover {\n        color: #ffa319;       \n}\n\nul, ol, dl {\n        margin-top: 5px;\n        margin-bottom: 5px;\n}\n\n/* Common styles */\nhr {\n        height: 1px;\n        line-height: 1px;\n        margin-top: 1em;\n        padding-bottom: 1em;\n        border: none;\n}\n\nform {\n        padding: 0px;  \n}\n\nselect {\n        font-family: Arial;\n        font-size: 14px;\n        padding: 2px;\n}\n\nheader {\n        font-family: \"Architects Daughter\", \"Helvetica Neue\", Helvetica, Arial, serif; \n        background: #ffb717 url(\"../images/bg_1.jpg\") 0px 0px repeat-x;\n        border-bottom: solid 0px #191919;\n        padding-top: 44px;\n        padding-bottom: 38px;\n        padding-left: 100px;\n        min-width: 1160px;\n        /*min-width: 940px;*/\n}\n\nheader h1 {\n        font-size: 72px;\n        color: #ffffff;\n        line-height: 1;\n        letter-spacing: -1px;\n        margin-bottom: 0.2em;\n}\n\nheader h2 {\n        font-size: 32px;\n        color: #ff4500;\n        line-height: 0.8; /* Finetuning */\n}\n\n/* My styles */\n#menu {\n        font-family: \"Architects Daughter\";\n        font-size: 18px;\n        color: #ffffff;\n        background: url(\"../images/bg_2.jpg\") 0px 0px repeat-x;\n        padding-top: 20px;\n        padding-bottom: 20px;\n        padding-left: 10px;\n        min-width: 1250px;\n        /*min-width: 1030px;*/\n}\n\n#menu a { \n        color: #ffffff;\n        text-decoration:none;\n}\n\n#menu a:hover {\n        color: #ffb717;\n        /*color: #ffa319;*/      \n}\n\n#menu table {\n        border: 0px solid #ebebeb;\n\n}\n\n#menu th {\n        font-weight: 500;\n}\n\n#menu td {\n        border: 0px solid #ebebeb;\n        padding-left: 40px;\n        vertical-align: middle;\n}\n\n#main {\n        padding-left: 100px;\n        padding-top: 25px;    \n        position: relative;\n        width: 760px;\n        margin-bottom: 50px;\n}\n\n#main p {\n        padding-bottom: 12px;\n}\n\n#main a { \n        text-decoration:none; \n        font-weight:bold;\n        color: #666;\n}\n\n#main h1 {\n        font-family: \"Architects Daughter\", \"Helvetica Neue\", Helvetica, Arial, serif; \n        font-size: 40px;\n        letter-spacing: -1px;\n        color: #474747;\n        padding-bottom: 12px;\n} \n\n#main h1:before {\n        content: \"/\";\n        color: #ff4500;\n        padding-right: 15px;\n}\n\n#main h1:after {\n        content: \"/\";\n        color: #ff4500;\n        padding-left: 15px;\n}\n\n#main h2 {\n        font-family: \"Architects Daughter\", \"Helvetica Neue\", Helvetica, Arial, serif; \n        font-size: 30px;\n        letter-spacing: -1px;\n        color: #474747;\n        padding-bottom: 18px;\n} \n\n#main h2:before {\n        content: \"//\";\n        color: #ff4500;\n        padding-right: 15px;\n}\n\n#main h2:after {\n        content: \"//\";\n        color: #ff4500;\n        padding-left: 15px;\n}\n\n#side {\n        background: transparent url(\"../images/sb_1.jpg\") 0 0 no-repeat;\n        padding-left: 40px;\n        min-height: 400px;\n        position: absolute;\n        top: 300px;\n        left: 980px;\n}\n\n#sponsor {\n        min-height: 100px;\n        position: absolute;\n        top: 65px;\n        left: 800px;\n}\n\n#sponsor_2 {\n        min-height: 100px;\n        position: absolute;\n        top: 360px;\n        left: 470px;\n}\n\n.button {\n        margin-bottom: 4px;\n        display: block;\n}\n\n#disclaimer {\n        font-family: \"Architects Daughter\";\n        font-size: 14px;\n        color: #ffffff;\n        background: url(\"../images/bg_2.jpg\") 0px 0px repeat-x;\n        padding: 9px;\n        padding-left: 50px;\n        position: fixed;\n        bottom: 0px;\n        height: 20px;\n        /*min-width: 100%;*/\n        min-width: 2560px;\n        /*width: 100%;*/\n}\n\n#bug {\n        font-family: \"Architects Daughter\";\n        font-size: 20px;\n        font-weight: normal;\n        color: #000000;\n        position: absolute;\n        top: 15px;\n        /*left: 750px;*/\n        right: 30px;\n        min-width: 430px;\n}\n\n#security_level {\n        font-family: \"Architects Daughter\";\n        font-size: 20px;\n        font-weight: normal;\n        color: #000000;\n        position: absolute;\n        top: 88px;\n        /*left: 750px;*/\n        right: 30px;\n        min-width: 430px;\n}\n\n#bee {\n        position: absolute;\n        top: 18px;\n        left: 342px;\n        height: 35px;\n        width: 35px;\n        /*opacity:0.6; Makes the image transparant\n        filter:alpha(opacity=60); For IE8 and earlier */        \n}\n\n#table_yellow {\n        border: 0px\n}\n\n#table_yellow td {\n        border: 1px solid #ebebeb;\n        padding: 10px; \n        vertical-align: middle;\n}\n\n#select_portal {\n        font-size: 14px;\n        font-family: Arial;\n        width: 350px;\n        padding: 1px;\n}\n\n@font-face {\n  font-family: 'Architects Daughter';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Architects Daughter'), local('ArchitectsDaughter');\n}"
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/js/html5.js",
+      "status": 200,
+      "type": "application/javascript",
+      "size": 1220,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-encoding": "gzip",
+        "content-length": "1220",
+        "content-type": "application/javascript",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"95a-7ba28b100-gzip\"",
+        "keep-alive": "timeout=15, max=100",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache",
+        "vary": "Accept-Encoding"
+      },
+      "postData": "",
+      "responseBody": "/*! HTML5 Shiv vpre3.6 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed\n  Uncompressed source: https://github.com/aFarkas/html5shiv  */\n(function(a,b){function h(a,b){var c=a.createElement(\"p\"),d=a.getElementsByTagName(\"head\")[0]||a.documentElement;return c.innerHTML=\"x<style>\"+b+\"</style>\",d.insertBefore(c.lastChild,d.firstChild)}function i(){var a=l.elements;return typeof a==\"string\"?a.split(\" \"):a}function j(a){var b={},c=a.createElement,f=a.createDocumentFragment,g=f();a.createElement=function(a){if(!l.shivMethods)return c(a);var f;return b[a]?f=b[a].cloneNode():e.test(a)?f=(b[a]=c(a)).cloneNode():f=c(a),f.canHaveChildren&&!d.test(a)?g.appendChild(f):f},a.createDocumentFragment=Function(\"h,f\",\"return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&(\"+i().join().replace(/\\w+/g,function(a){return c(a),g.createElement(a),'c(\"'+a+'\")'})+\");return n}\")(l,g)}function k(a){var b;return a.documentShived?a:(l.shivCSS&&!f&&(b=!!h(a,\"article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio{display:none}canvas,video{display:inline-block;*display:inline;*zoom:1}[hidden]{display:none}audio[controls]{display:inline-block;*display:inline;*zoom:1}mark{background:#FF0;color:#000}\")),g||(b=!j(a)),b&&(a.documentShived=b),a)}var c=a.html5||{},d=/^<|^(?:button|form|map|select|textarea|object|iframe|option|optgroup)$/i,e=/^<|^(?:a|b|button|code|div|fieldset|form|h1|h2|h3|h4|h5|h6|i|iframe|img|input|label|li|link|ol|option|p|param|q|script|select|span|strong|style|table|tbody|td|textarea|tfoot|th|thead|tr|ul)$/i,f,g;(function(){var c=b.createElement(\"a\");c.innerHTML=\"<xyz></xyz>\",f=\"hidden\"in c,f&&typeof injectElementWithStyles==\"function\"&&injectElementWithStyles(\"#modernizr{}\",function(b){b.hidden=!0,f=(a.getComputedStyle?getComputedStyle(b,null):b.currentStyle).display==\"none\"}),g=c.childNodes.length==1||function(){try{b.createElement(\"a\")}catch(a){return!0}var c=b.createDocumentFragment();return typeof c.cloneNode==\"undefined\"||typeof c.createDocumentFragment==\"undefined\"||typeof c.createElement==\"undefined\"}()})();var l={elements:c.elements||\"abbr article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output progress section summary time video\",shivCSS:c.shivCSS!==!1,shivMethods:c.shivMethods!==!1,type:\"default\",shivDocument:k};a.html5=l,k(b)})(this,document)"
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/mme.png",
+      "status": 200,
+      "type": "image/png",
+      "size": 8175,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "8175",
+        "content-type": "image/png",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"1fef-5ce9d1a00ca40\"",
+        "keep-alive": "timeout=15, max=98",
+        "last-modified": "Mon, 18 Oct 2021 09:23:45 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/owasp.png",
+      "status": 200,
+      "type": "image/png",
+      "size": 16988,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "16988",
+        "content-type": "image/png",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"425c-7ba28b100\"",
+        "keep-alive": "timeout=15, max=99",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://fonts.googleapis.com/css?family=Architects+Daughter",
+      "status": 200,
+      "type": "text/css",
+      "size": 0,
+      "time": 0,
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "http://www.itsecgames.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"146\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"146\"",
+        "sec-ch-ua-mobile": "?0",
+        ":authority": "fonts.googleapis.com",
+        ":method": "GET",
+        ":path": "/css?family=Architects+Daughter",
+        ":scheme": "https",
+        "accept": "text/css,*/*;q=0.1",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9",
+        "priority": "u=0",
+        "sec-fetch-dest": "style",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-storage-access": "active",
+        "x-browser-channel": "stable",
+        "x-browser-copyright": "Copyright 2026 Google LLC. All Rights reserved.",
+        "x-browser-validation": "LfmjnJqGD5Eus3i98IgXaWqUp3s=",
+        "x-browser-year": "2026",
+        "x-client-data": "CI3rygE="
+      },
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+        "content-encoding": "gzip",
+        "content-type": "text/css; charset=utf-8",
+        "cross-origin-opener-policy": "same-origin-allow-popups",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "expires": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "last-modified": "Tue, 31 Mar 2026 09:19:27 GMT",
+        "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+        "server": "ESF",
+        "strict-transport-security": "max-age=31536000",
+        "timing-allow-origin": "*",
+        "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "0"
+      },
+      "postData": "",
+      "responseBody": "/* latin-ext */\n@font-face {\n  font-family: 'Architects Daughter';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/architectsdaughter/v20/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYdg4_zg.woff2) format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Architects Daughter';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/architectsdaughter/v20/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4w.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n"
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/twitter.png",
+      "status": 200,
+      "type": "image/png",
+      "size": 2896,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "2896",
+        "content-type": "image/png",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"b50-7ba28b100\"",
+        "keep-alive": "timeout=15, max=97",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/linkedin.png",
+      "status": 200,
+      "type": "image/png",
+      "size": 1742,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "1742",
+        "content-type": "image/png",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"6ce-7ba28b100\"",
+        "keep-alive": "timeout=15, max=100",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/facebook.png",
+      "status": 200,
+      "type": "image/png",
+      "size": 2636,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "2636",
+        "content-type": "image/png",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"a4c-7ba28b100\"",
+        "keep-alive": "timeout=15, max=100",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/sb_1.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "size": 3200,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/stylesheets/stylesheet.css",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "3200",
+        "content-type": "image/jpeg",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"c80-7ba28b100\"",
+        "keep-alive": "timeout=15, max=98",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/bee_1.png",
+      "status": 200,
+      "type": "image/png",
+      "size": 5486,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "5486",
+        "content-type": "image/png",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"156e-7ba28b100\"",
+        "keep-alive": "timeout=15, max=96",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/bg_1.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "size": 123506,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/stylesheets/stylesheet.css",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "123506",
+        "content-type": "image/jpeg",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"1e272-7ba28b100\"",
+        "keep-alive": "timeout=15, max=100",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://fonts.gstatic.com/s/architectsdaughter/v20/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4w.woff2",
+      "status": 200,
+      "type": "font/woff2",
+      "size": 13156,
+      "time": 0,
+      "requestHeaders": {
+        "origin": "http://www.itsecgames.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://fonts.googleapis.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"146\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"146\"",
+        "sec-ch-ua-mobile": "?0",
+        ":authority": "fonts.gstatic.com",
+        ":method": "GET",
+        ":path": "/s/architectsdaughter/v20/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4w.woff2",
+        ":scheme": "https",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9",
+        "priority": "u=0",
+        "sec-fetch-dest": "font",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "x-browser-channel": "stable",
+        "x-browser-copyright": "Copyright 2026 Google LLC. All Rights reserved.",
+        "x-browser-validation": "LfmjnJqGD5Eus3i98IgXaWqUp3s=",
+        "x-browser-year": "2026",
+        "x-client-data": "CI3rygE="
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "79510",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "cache-control": "public, max-age=31536000",
+        "content-length": "13156",
+        "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+        "content-type": "font/woff2",
+        "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Mon, 30 Mar 2026 11:16:33 GMT",
+        "expires": "Tue, 30 Mar 2027 11:16:33 GMT",
+        "last-modified": "Tue, 16 Sep 2025 13:26:15 GMT",
+        "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+        "server": "sffe",
+        "timing-allow-origin": "*",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "0"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/cc.png",
+      "status": 200,
+      "type": "image/png",
+      "size": 688,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "688",
+        "content-type": "image/png",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"2b0-7ba28b100\"",
+        "keep-alive": "timeout=15, max=97",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/bg_3.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "size": 3188,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/stylesheets/stylesheet.css",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "3188",
+        "content-type": "image/jpeg",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"c74-7ba28b100\"",
+        "keep-alive": "timeout=15, max=99",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/bg_2.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "size": 376472,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/stylesheets/stylesheet.css",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "376472",
+        "content-type": "image/jpeg",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"5be98-7ba28b100\"",
+        "keep-alive": "timeout=15, max=100",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/blogger.png",
+      "status": 200,
+      "type": "image/png",
+      "size": 1026,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "1026",
+        "content-type": "image/png",
+        "date": "Tue, 31 Mar 2026 09:21:43 GMT",
+        "etag": "\"402-7ba28b100\"",
+        "keep-alive": "timeout=15, max=99",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    },
+    {
+      "method": "SUCCESS",
+      "url": "Initial Entry - Settle Phase",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "http://www.itsecgames.com/images/favicon.ico",
+      "status": 200,
+      "type": "image/vnd.microsoft.icon",
+      "size": 1150,
+      "time": 0,
+      "requestHeaders": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "referer": "http://www.itsecgames.com/",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "host": "www.itsecgames.com",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "responseHeaders": {
+        "accept-ranges": "bytes",
+        "connection": "Keep-Alive",
+        "content-length": "1150",
+        "content-type": "image/vnd.microsoft.icon",
+        "date": "Tue, 31 Mar 2026 09:21:45 GMT",
+        "etag": "\"47e-7ba28b100\"",
+        "keep-alive": "timeout=15, max=99",
+        "last-modified": "Thu, 01 Jan 1970 09:13:08 GMT",
+        "server": "Apache"
+      },
+      "postData": "",
+      "responseBody": ""
+    }
+  ],
+  "sources": [
+    "http://www.itsecgames.com/",
+    "http://www.itsecgames.com/stylesheets/stylesheet.css",
+    "http://www.itsecgames.com/js/html5.js",
+    "https://fonts.googleapis.com/css?family=Architects+Daughter"
+  ],
+  "chatHistory": [],
+  "consoleLogs": [],
+  "sourceAnalysis": {},
+  "networkAnalysis": {}
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "vulnerability": "SQL Injection",
+        "severity": "high",
+        "details": "Potential SQL injection in parameter 'id'",
+        "location": "http://example.com/product?id=1"
+    },
+    {
+        "vulnerability": "Reflected XSS",
+        "severity": "medium",
+        "details": "Reflected XSS in parameter 'q'",
+        "location": "http://example.com/search?q=<script>"
+    }
+]
